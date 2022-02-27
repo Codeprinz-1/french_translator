@@ -16,3 +16,10 @@ def frenchToEnglish():
 
     return 'Translated text to English'
 
+
+@app.route('/')
+def renderIndexPage():
+    pass
+
+if __name__ == '__main__':
+    app.run(port=8000)
