@@ -3,4 +3,6 @@ from unittest import TestCase
 
 class TestFrenchToEnglish(TestCase):
     def test1(self):
-        self.assertEqual(frenchToEnglish())
+        self.assertEqual(frenchToEnglish(), 'Hello')
+        self.assertEqual(frenchToEnglish('Hello'))
+
