@@ -1,5 +1,5 @@
 Flask==2.1.1
 Flask-WTF==1.0.1
 ibm-watson==6.0.0
-python-dotenv==0.20.0
+python-dotenv==0.21.1
 pyJWT==2.3.0
